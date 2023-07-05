@@ -1,6 +1,7 @@
 import { signIn, signOut, useSession } from "next-auth/react";
 import Head from "next/head";
 import Link from "next/link";
+import { Button } from "~/components/ui/button";
 import { api } from "~/utils/api";
 
 export default function Home() {
@@ -46,6 +47,7 @@ export default function Home() {
             <p className="text-2xl text-white">
               {hello.data ? hello.data.greeting : "Loading tRPC query..."}
             </p>
+            <Button>Button</Button>
             <AuthShowcase />
           </div>
         </div>
