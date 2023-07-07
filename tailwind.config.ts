@@ -15,6 +15,9 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      sans: ['"Noto Sans"', "sans-serif"],
+    },
     colors: {
       lime: {
         100: "#EEFBDA",

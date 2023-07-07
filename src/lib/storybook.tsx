@@ -11,9 +11,9 @@ const StorybookBlock: React.FC<IStorybookBlock> = ({ children, ...props }) => {
     <div
       {...props}
       style={{
-        backgroundColor: props.theme === "light" ? "#ffffff" : "#161A1D",
+        backgroundColor: props.theme === "light" ? "#F7F8F9" : "#1D2125",
         display: "flex",
-        padding: "2rem 0",
+        padding: "2rem 1rem",
         justifyContent: "center",
       }}
       className={props.theme}
